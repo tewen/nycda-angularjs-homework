@@ -1,0 +1,13 @@
+{
+  "name": "hw-1",
+  "version": "0.0.1",
+  "description": "Homework 1, NYCDA's Angular JS 101.",
+  "author": "Trevor Ewen",
+  "license": "GNU",
+  "devDependencies": {
+    "karma": "~0.12.16",
+    "phantomjs": "~1.9.7-8",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-jasmine": "~0.1.5"
+  }
+}

@@ -13,7 +13,7 @@ Run the following commands and you will see much red. The goal is to get all tes
 ###Requirements
 ```
 cd hw-1
-npm install -g karma
+sudo npm install -g karma
 npm install
 ```
 

@@ -1,6 +1,21 @@
 nycda-angularjs-homework
 ===============
 
+##Forking
+
+In order to receive updates to the repo, you will need to pull from the main branch. For your convenience, I have added a
+script entitled 'pull_from_main.sh' you can run this as follows:
+
+```
+sh pull_from_main.sh
+```
+
+This will sync your repository with the remote repository. Git will encourage you to commit your changes first, before
+pulling from the remote repo.
+
+
+##Assignments
+
 The class assignments and reference code for the New York Code &amp; Design Academy's Angular JS 101.
 
 ##Homework 1

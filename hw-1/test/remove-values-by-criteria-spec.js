@@ -1,4 +1,4 @@
-ddescribe("_nycda.removeValuesByCriteria", function () {
+describe("_nycda.removeValuesByCriteria", function () {
 
     it("Should throw an error if passed an undefined object", function () {
         expect(function () {

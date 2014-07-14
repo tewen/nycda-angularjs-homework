@@ -58,7 +58,7 @@ karma start karma.conf.js
 ```
 
 ###Assignment
-Write an unit test a mechanism for informing users of whether or not they have chosen the correct answer.
+Write (and unit test) a mechanism for informing users of whether or not they have chosen the correct answer.
 
 Some ideas:
 - Indicate a the correct answer upon selection

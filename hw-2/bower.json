@@ -1,0 +1,26 @@
+{
+    "name": "hw-2",
+    "version": "0.0.1",
+    "homepage": "https://github.com/tewen/nycda-angularjs",
+    "authors": [
+        "Trevor Ewen"
+    ],
+    "description": "Homework 2, NYCDA's Angular JS 101.",
+    "license": "GNU",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "1.2.16",
+        "sass-bootstrap": "~3.0.2"
+    },
+    "devDependencies": {
+        "angular-resource": "1.2.16",
+        "angular-mocks": "1.2.16"
+    }
+}

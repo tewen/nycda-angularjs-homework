@@ -37,3 +37,31 @@ In order to complete the assignment you will need to run the unit tests from the
 ```
 karma start karma.conf.js
 ```
+
+##Homework 2
+
+Core AngularJS and basic unit testing.
+
+###Requirements
+```
+cd hw-2
+sudo npm install -g httpster
+httpster
+```
+
+Navigate your browser to http://localhost:3333
+
+Much like the last assignment, you can run tests by:
+
+```
+karma start karma.conf.js
+```
+
+###Assignment
+Write an unit test a mechanism for informing users of whether or not they have chosen the correct answer.
+
+Some ideas:
+- Indicate a the correct answer upon selection
+- Use a 'submit assignment' button at the base of the app to grade the questions
+
+We will go over some ideas in class, and we will have some more time throughout the week.

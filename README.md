@@ -45,6 +45,8 @@ Core AngularJS and basic unit testing.
 ###Requirements
 ```
 cd hw-2
+npm install
+bower install
 sudo npm install -g httpster
 httpster
 ```

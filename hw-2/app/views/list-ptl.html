@@ -1,0 +1,21 @@
+<div class="row"
+     ng-controller="List">
+    <div class="col-xs-12 col-md-8">
+        <table class="table table-striped table-bordered">
+            <tbody>
+            <tr class="clickable info"
+                ng-repeat="q in questions"
+                ng-class="getRowClass(q)"
+                ng-click="onSelectQuestion(q)">
+                <td>{{q.question}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Detail -->
+    <ng-include src="'app/views/detail-ptl.html'"></ng-include>
+
+    <div class="col-xs-12">
+        <label class="red">{{messaging.questionSuccess}}</label>
+    </div>
+</div>

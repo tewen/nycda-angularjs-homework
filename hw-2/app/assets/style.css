@@ -5,3 +5,7 @@ h1 {
 .clickable {
     cursor: pointer;
 }
+
+.red {
+    color: red;
+}

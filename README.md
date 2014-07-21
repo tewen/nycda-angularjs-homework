@@ -68,3 +68,18 @@ Some ideas:
 - Use a 'submit assignment' button at the base of the app to grade the questions
 
 We will go over some ideas in class, and we will have some more time throughout the week.
+
+##Homework 3
+
+Integrating APIs and data services.
+
+
+###Assignment
+Implement article search, using the New York Times API:
+
+Documentation: http://developer.nytimes.com/docs/read/article_search_api_v2
+API Key: 052861d142cf4eb7fa12bb79781fdbe1:11:69591426
+
+A standard application would show a search field and a search button the screen (think Google). 
+When a search is run, it should pull in the remote result and display them on the screen. I encourage you to
+use Yeoman to generate the project structure. 

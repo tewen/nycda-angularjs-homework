@@ -15,19 +15,16 @@ angular.module('hw3App')
             $scope.$watch('articles.list', function (val) {
                 if (val && val.length) {
                     $scope.pieData = val.map(function (article) {
-                        return {key: article.headline.main, y: article.word_count};
+                            return {
+                                key: article.byline ?
+                                    article.byline.original :
+                                    article.headline.main,
+                                y: article.word_count
+                            };
                     });
                 }
             });
-            $scope.pieData = [
-                { key: "One", y: 5 },
-                { key: "Two", y: 2 },
-                { key: "Three", y: 9 },
-                { key: "Four", y: 7 },
-                { key: "Five", y: 4 },
-                { key: "Six", y: 3 },
-                { key: "Seven", y: 9 }
-            ];
+            $scope.pieData = [];
             $scope.xFunction = function () {
                 return function (d) {
                     return d.key;

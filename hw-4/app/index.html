@@ -28,11 +28,13 @@
             <div class="form-group col-xs-12 col-md-9">
                    <input type="text"
                        class="form-control"
-                       placeholder="Article Search">
+                       placeholder="Article Search"
+                       ng-model="searchTerm">
             </div>
             <div class="form-group col-xs-12 col-md-3">
                 <button type="submit"
-                        class="btn btn-danger">Search NYT Articles
+                        class="btn btn-danger"
+                        ng-click="onSearch(searchTerm)">Search NYT Articles
                 </button>
             </div>
         </form>
@@ -98,6 +100,8 @@
     <script src="scripts/services/firebase.js"></script>
         <script src="scripts/controllers/testfb.js"></script>
         <script src="scripts/controllers/word-count-analysis.js"></script>
+        <script src="scripts/services/new-york-times.js"></script>
+        <script src="scripts/services/articles.js"></script>
         <!-- endbuild -->
 </body>
 </html>

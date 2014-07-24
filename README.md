@@ -73,6 +73,13 @@ We will go over some ideas in class, and we will have some more time throughout 
 
 Integrating APIs and data services.
 
+###Requirements
+In order to install the required dependencies, make sure your run these commands:
+```
+cd hw-3
+npm install
+bower install
+```
 
 ###Assignment
 Implement article search, using the New York Times API:
@@ -89,6 +96,13 @@ use Yeoman to generate the project structure.
 Integrating Firebase with your New York Times application.
 
 ###Requirements
+In order to install the required dependencies, make sure your run these commands:
+```
+cd hw-4
+npm install
+bower install
+```
+
 We will start prep on the assignment by creating your firebase account at firebase.com. 
 
 When you have the name of your db instance, you need to replace the string 'nycda-instance' in the following project file:

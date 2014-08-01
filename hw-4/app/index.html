@@ -37,6 +37,9 @@
                         ng-click="onSearch(searchTerm)">Search NYT Articles
                 </button>
             </div>
+            <p ng-repeat="a in articles.list" ng-click="onSelectArticle(a)">
+                <a>{{a.headline.main}}</a>
+            </p>
         </form>
         <ng-include src="'views/word-count-analysis.html'"></ng-include>
     </div>
@@ -91,6 +94,7 @@
     <script src="bower_components/nvd3/nv.d3.js"></script>
     <script src="bower_components/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js"></script>
     <script src="bower_components/momentjs/moment.js"></script>
+    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -103,6 +107,7 @@
         <script src="scripts/controllers/word-count-analysis.js"></script>
         <script src="scripts/services/new-york-times.js"></script>
         <script src="scripts/services/articles.js"></script>
+    <script src="scripts/firebase-models/saved-article.js"></script>
         <!-- endbuild -->
 </body>
 </html>
